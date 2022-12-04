@@ -1,0 +1,22 @@
+{
+  "name": "intimation/catalyst-menus",
+  "type": "library",
+  "description": "Catalyst element to register and unregister WordPress menus through configuration.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Craig Simpson",
+      "homepage": "https://intimation.co.uk",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "intimation/catalyst": "@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Intimation\\Catalyst\\": "src/"
+    }
+  }
+}
